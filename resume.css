@@ -82,28 +82,28 @@ body {
   text-align: left;
 }
 
-.back-home-btn {
+.back-to-gallery-btn {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #333; /* 更深灰色背景 */
-  color: white;
+  width: 52px;
+  height: 52px;
+  background-color: rgba(255, 255, 255, 0.6); /* 半透明背景 */
+  border: none;
   border-radius: 50%;
-  width: 65px;  /* 更大圆 */
-  height: 65px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 30px; /* 更大图标 */
+  align-items: center;
+  font-size: 1.4rem;
+  color: #333;
   z-index: 9999;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
-  transition: background-color 0.3s, transform 0.3s;
-  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.back-home-btn:hover {
-  background-color: #111;  /* hover 更深灰 */
-  transform: scale(1.12);
+.back-to-gallery-btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.1);
 }
 
 
